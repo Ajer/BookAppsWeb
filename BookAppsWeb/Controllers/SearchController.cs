@@ -15,9 +15,10 @@ namespace BookAppsWeb.Controllers
     // Web API for Book-data-searching
     public class SearchController : ApiController
     {
-             
-        [HttpGet]
+
+
         // Id Search  GET: /api/Search?idSrchStr=val1&caseSens=val2
+        [HttpGet]
         public IHttpActionResult GetSrchResultById(string idSrchStr, bool caseSens = false)
         {
             if (idSrchStr != null)
@@ -31,8 +32,9 @@ namespace BookAppsWeb.Controllers
             }
         }
 
-        [HttpGet]
+
         // Title Search  GET: /api/Search?titleSrchStr=val1&caseSens=val2
+        [HttpGet]
         public IHttpActionResult GetSrchResultByTitle(string titleSrchStr,bool caseSens = false)
         {
 
@@ -47,8 +49,9 @@ namespace BookAppsWeb.Controllers
             }
         }
 
-        [HttpGet]
+        
         // Author Search GET: /api/Search?authSrchStr=val1&caseSens=val2
+        [HttpGet]
         public IHttpActionResult GetSrchResultByAuthor(string authSrchStr, bool caseSens = false)
         {
 
