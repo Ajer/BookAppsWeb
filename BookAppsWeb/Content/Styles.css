@@ -1,0 +1,109 @@
+﻿.btn-100{
+    width: 100px;
+    height: 20px;
+    padding: 0;   
+}
+
+.btn-150{
+    width: 150px;
+    height: 30px;
+    padding: 0;   
+}
+
+.btn-125{
+    width: 125px;
+    height: 25px;
+    padding: 0;
+}
+
+.top-marg-7
+{
+     margin-top:7px;
+     margin-left:385px;
+     position:absolute;
+}
+
+
+#label1
+{
+   position:absolute;   
+   margin-top:10px;
+   font-weight:normal;
+   text-align:center;
+}
+
+#srchDropDown
+{
+    position:absolute;
+    margin-top:10px;
+    margin-left:92px;
+    padding:0;
+    height:21px;
+}
+
+#srchField
+{
+    position:absolute;
+    margin-left:170px;
+    margin-top:10px;
+    width:200px;
+    height:21px;
+    padding:0;
+}
+
+#divcase
+{
+    position:absolute;   /**/
+    margin-top:38px;
+    /*display:block;*/
+    /*float:left;*/
+    
+}
+
+#caseChBox
+{
+    position:absolute;   /**/
+    margin-top:4px;
+    margin-left:7px;
+    /*display:inline-block;*/
+}
+
+#caselabel
+{
+   position:absolute;   /**/
+   margin-top:38px;
+   font-weight:normal;
+   /*display:inline-block;*/
+   text-align:center;
+}
+
+/*#divHr
+{
+   position:absolute;   
+   margin-top:100px;
+}*/
+
+.panel-borderless {
+  border: 0;
+  box-shadow: none;
+}
+
+#srchresult
+{
+   position:absolute;
+   margin-top:30px;
+   font-style:italic;
+   font-family:Arial;
+   font-size:small;
+
+}
+
+#resultcount
+{
+   position:absolute;
+   margin-top:5px;
+   font-style:italic;
+   font-family:Arial;
+   font-size:small;
+
+}

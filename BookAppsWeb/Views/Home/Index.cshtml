@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="panel panel-success panel-borderless">
+    <div class="panel-heading"><h4>Books</h4></div>
+    @*<div class="panel-body">*@
+
+    <div id="divsrch">
+        <label id="label1">Search for:</label>
+        <select id="srchDropDown">
+                <option value="title">Title</option>
+                <option value="author">Author</option>
+                <option value="id">BookId</option>
+         </select>
+         <input type="text" id="srchField" name="srchField" />
+    </div>
+
+    <label id="caselabel">Case sensitive search:<input class="chBox" id="caseChBox" type="checkbox" /></label>
+    <button id="theBtn" class="btn btn-success btn-125 top-marg-7">Search</button>
+    <br/>
+    <br/>
+    <hr id="theHr" />
+    @*</div>*@
+    <div id="resultcount"></div>
+    <div id="srchresult"></div>
+</div>
+
